@@ -1,0 +1,55 @@
+## ─── Build Output ───────────────────────────────
+bin/
+obj/
+
+## ─── Visual Studio ───────────────────────────────
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## ─── JetBrains Rider ─────────────────────────────
+.idea/
+*.iml
+
+## ─── VS Code ─────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+
+## ─── SENSITIVE FILES — NEVER PUSH ───────────────
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+*.pfx
+*.key
+secrets.json
+
+## ─── Logs ────────────────────────────────────────
+logs/
+*.log
+log/
+
+## ─── NuGet ───────────────────────────────────────
+*.nupkg
+.nuget/
+packages/
+
+## ─── Database ────────────────────────────────────
+*.mdf
+*.ldf
+*.ndf
+
+## ─── OS Files ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## ─── Docker (if added later) ─────────────────────
+.dockerignore
+
+## ─── Test Results ────────────────────────────────
+TestResults/
+coverage/
+*.coverage
