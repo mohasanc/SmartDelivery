@@ -250,12 +250,6 @@ Open Swagger: **http://localhost:5000/swagger**
 
 ---
 
-## 📸 Screenshots
-
-> 🖼️ *Add your Swagger screenshots here*
-
----
-
 ## 🔮 Future Improvements
 
 - [ ] 🐳 Docker + Docker Compose
