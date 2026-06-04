@@ -280,7 +280,7 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-Made with ❤️ by **[Your Name](https://github.com/YOUR_USERNAME)**
+Made with ❤️ by **[Mohamed Hassan](https://github.com/mohasanc)**
 
 ⭐ *If you found this project useful, please give it a star!*
 
