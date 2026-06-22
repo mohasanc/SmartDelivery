@@ -60,7 +60,8 @@ namespace SmartDelivery.API
                 app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
                 app.UseMiddleware<RequestLoggingMiddleware>();
 
-                if (app.Environment.IsDevelopment())
+                if (app.Environment.IsDevelopment() || app.Environment.IsEnvironment("Demo"))
+
                 {
                     app.UseSwaggerDocumentation();
                 }
@@ -68,7 +69,7 @@ namespace SmartDelivery.API
                 app.UseHttpsRedirection();
                 app.UseResponseCompression();
 
-                app.UseCors(app.Environment.IsDevelopment() ? "AllowAll" : "Production");
+                app.UseCors(app.Environment.IsDevelopment() ? "Production" : "AllowAll" );
 
                 app.UseAuthentication();
                 app.UseAuthorization();

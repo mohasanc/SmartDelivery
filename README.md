@@ -11,8 +11,21 @@
 ![SQL Server](https://img.shields.io/badge/SQL_Server-2022-CC2927?style=flat&logo=microsoftsqlserver)
 ![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=flat&logo=jsonwebtokens)
 ![Swagger](https://img.shields.io/badge/Swagger-Docs-85EA2D?style=flat&logo=swagger)
+![Live Demo](https://img.shields.io/badge/Live_Demo-Online-success?style=flat&logo=vercel)
 
 </div>
+
+---
+
+## 🌐 Live Demo
+
+**🔗 API is deployed and live:** [smartdelivery.runasp.net/swagger](https://smartdelivery.runasp.net/swagger/index.html)
+
+Try it yourself right now — no setup required:
+1. Open the Swagger link above
+2. Use the `POST /api/v1/auth/login` endpoint with one of the [seed accounts](#-seed-data) below (e.g. `customer@smartdelivery.com` / `Customer@123456`)
+3. Copy the returned `accessToken`, click **Authorize** 🔓 at the top of the page, and paste it as `Bearer {token}`
+4. Explore any protected endpoint — restaurants, orders, ratings — all backed by real seeded data
 
 ---
 
@@ -149,7 +162,10 @@ Pending → Confirmed → Preparing → ReadyForPickup → OnTheWay → Delivere
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Quick Start (Local Development)
+
+> 💡 Just want to try the API? Use the **[Live Demo](#-live-demo)** above — no installation needed.
+> The steps below are for running the project locally.
 
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
@@ -250,12 +266,6 @@ Open Swagger: **http://localhost:5000/swagger**
 
 ---
 
-## 📸 Screenshots
-
-> 🖼️ *Add your Swagger screenshots here*
-
----
-
 ## 🔮 Future Improvements
 
 - [ ] 🐳 Docker + Docker Compose
@@ -264,7 +274,7 @@ Open Swagger: **http://localhost:5000/swagger**
 - [ ] 📧 Email notifications (order confirmation)
 - [ ] 📱 Push notifications
 - [ ] 🧪 Unit & Integration Tests
-- [ ] ☁️ Deploy to Azure / Railway
+- [ ] ⚙️ CI/CD pipeline (GitHub Actions)
 - [ ] 🔒 Rate Limiting
 - [ ] 🗃️ Redis Cache (replace MemoryCache)
 - [ ] 📊 Admin Dashboard
@@ -286,7 +296,7 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-Made with ❤️ by **[Your Name](https://github.com/YOUR_USERNAME)**
+Made with ❤️ by **[Mohamed Hassan](https://github.com/mohasanc)**
 
 ⭐ *If you found this project useful, please give it a star!*
 
